@@ -214,9 +214,9 @@ All Web services are API but All API's Are not web service.
 | **URL** | **Uniform Resource Locator**    | Identifies a resource and tells where/how to access it                 | `https://shop.com/products/501` |
 | **URN** | **Uniform Resource Name**       | Identifies a resource using a name/identifier rather than its location | `urn:product:501`               |
 
+**Payload**
 
-
-
+Payload means the actual data carried inside an API request or response.
 
 
 
