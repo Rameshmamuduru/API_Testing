@@ -144,7 +144,7 @@ REST
 ├── 4. Uniform Interface
 ├── 5. Layered System
 └── 6. Code on Demand (optional)
-````s
+```
 
 <img width="2140" height="946" alt="image" src="https://github.com/user-attachments/assets/95afa5f7-a1f4-4f04-bbf6-570c4ec75c80" />
 
