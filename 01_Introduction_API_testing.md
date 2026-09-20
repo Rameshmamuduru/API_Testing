@@ -114,7 +114,7 @@ CLIENT
 
 **Client-server architecture is a communication model where a client sends a request to a server, the server processes that request—often using business logic, databases, or other services—and sends a response back to the client.**
 
-============================================================================
+
 
 ## Types of API's:
 
@@ -123,6 +123,38 @@ CLIENT
 3. **GraphQL** → good to know
 4. **WebSocket** → learn when real-time applications require it
 5. **gRPC** → learn after you understand REST and microservices
+
+
+### REST Api:
+
+A REST API is an API designed according to REST (Representational State Transfer) principles that allows clients and servers to communicate over HTTP using resources, URLs, and standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
+
+```
+REST API
+│
+├── Resources
+│    └── /customers/101
+│
+├── HTTP Methods
+│    ├── GET
+│    ├── POST
+│    ├── PUT
+│    ├── PATCH
+│    └── DELETE
+│
+├── HTTP Status Codes
+│    ├── 200
+│    ├── 201
+│    ├── 400
+│    ├── 401
+│    ├── 404
+│    └── 500
+│
+├── Headers
+├── Request Body
+├── Response Body
+└── Stateless communication
+```
 
 **API vs Web Service**
 
