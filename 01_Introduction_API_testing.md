@@ -134,6 +134,18 @@ CLIENT
 
 A REST API is an API designed according to REST (Representational State Transfer) principles that allows clients and servers to communicate over HTTP using resources, URLs, and standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
 
+**Principles**
+```
+REST
+│
+├── 1. Client-Server
+├── 2. Stateless
+├── 3. Cacheable
+├── 4. Uniform Interface
+├── 5. Layered System
+└── 6. Code on Demand (optional)
+````s
+
 <img width="2140" height="946" alt="image" src="https://github.com/user-attachments/assets/95afa5f7-a1f4-4f04-bbf6-570c4ec75c80" />
 
 **REST Api Methods**
