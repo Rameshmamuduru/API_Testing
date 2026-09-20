@@ -114,9 +114,30 @@ CLIENT
 
 **Client-server architecture is a communication model where a client sends a request to a server, the server processes that request—often using business logic, databases, or other services—and sends a response back to the client.**
 
+============================================================================
 
+## Types of API's:
 
+1. **REST** → very important (Support all types) - Latest
+2. **SOAP** → important, especially BFSI/enterprise (Support only xml Data) - Very Old
+3. **GraphQL** → good to know
+4. **WebSocket** → learn when real-time applications require it
+5. **gRPC** → learn after you understand REST and microservices
 
+**API vs Web Service**
+
+All Web services are API but All API's Are not web service.
+
+| API                                          | Web Service                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| Broad concept                                | Specific type of API                                         |
+| Allows software-to-software communication    | Allows software-to-software communication over a network/web |
+| Doesn't necessarily require internet/network | Network communication is fundamental                         |
+| Can be local                                 | Remote/network-based                                         |
+| Example: Java API                            | Example: SOAP Web Service                                    |
+| Example: OS API                              | Example: REST Web API                                        |
+
+**An API is an interface that enables communication between different software components, whereas a Web Service is a type of API that is exposed over a network and allows applications to communicate using web-based protocols.**
 
 
 
