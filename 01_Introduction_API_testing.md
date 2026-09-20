@@ -138,6 +138,7 @@ A REST API is an API designed according to REST (Representational State Transfer
 
 **REST Api Methods**
 
+
 | Method     | Purpose                        | Example                  |
 | ---------- | ------------------------------ | ------------------------ |
 | **GET**    | Retrieve data                  | Get customer details     |
