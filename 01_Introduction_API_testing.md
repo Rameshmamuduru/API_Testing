@@ -112,6 +112,7 @@ CLIENT
    ↓
 ```
 
+**Client-server architecture is a communication model where a client sends a request to a server, the server processes that request—often using business logic, databases, or other services—and sends a response back to the client.**
 
 
 
