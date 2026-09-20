@@ -11,6 +11,11 @@ UI testing checks what the user sees. API testing checks what happens behind the
 Client-server architecture is a system design where one system (the client) requests a service/data from another system (the server), and the server processes the request and 
 sends back a response.
 
+
+<img width="2405" height="1500" alt="image" src="https://github.com/user-attachments/assets/eb34b999-d078-4ce9-aea6-921086331fd8" />
+
+
+
 ```
 CLIENT
    |
@@ -128,6 +133,18 @@ CLIENT
 ### REST Api:
 
 A REST API is an API designed according to REST (Representational State Transfer) principles that allows clients and servers to communicate over HTTP using resources, URLs, and standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
+
+<img width="2140" height="946" alt="image" src="https://github.com/user-attachments/assets/95afa5f7-a1f4-4f04-bbf6-570c4ec75c80" />
+
+**REST Api Methods**
+
+| Method     | Purpose                        | Example                  |
+| ---------- | ------------------------------ | ------------------------ |
+| **GET**    | Retrieve data                  | Get customer details     |
+| **POST**   | Create new data                | Create a customer        |
+| **PUT**    | Completely update/replace data | Replace customer details |
+| **PATCH**  | Partially update data          | Update only phone number |
+| **DELETE** | Delete data                    | Delete a customer        |
 
 ```
 REST API
