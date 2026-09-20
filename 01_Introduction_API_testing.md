@@ -208,6 +208,11 @@ All Web services are API but All API's Are not web service.
 | **URN**         | Name of the resource present in the URL                                   |
 
 
+| Term    | Full Form                       | What it means                                                          | E-commerce example              |
+| ------- | ------------------------------- | ---------------------------------------------------------------------- | ------------------------------- |
+| **URI** | **Uniform Resource Identifier** | Identifies a resource                                                  | `https://shop.com/products/501` |
+| **URL** | **Uniform Resource Locator**    | Identifies a resource and tells where/how to access it                 | `https://shop.com/products/501` |
+| **URN** | **Uniform Resource Name**       | Identifies a resource using a name/identifier rather than its location | `urn:product:501`               |
 
 
 
