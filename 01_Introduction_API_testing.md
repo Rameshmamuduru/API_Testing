@@ -190,6 +190,22 @@ All Web services are API but All API's Are not web service.
 **An API is an interface that enables communication between different software components, whereas a Web Service is a type of API that is exposed over a network and allows applications to communicate using web-based protocols.**
 
 
+## Basic API Terminologies:
+
+| Term            | Meaning                                                                  |
+| --------------- | ------------------------------------------------------------------------ |
+| **API**         | Interface that allows software systems to communicate                    |
+| **Client**      | System that sends the API request                                        |
+| **Server**      | System that receives and processes the request                           |
+| **Endpoint**    | Specific API URL used to access a resource/function                      |
+| **HTTP**        | Protocol commonly used for REST API communication                        |
+| **HTTP Method** | Operation such as GET, POST, PUT, PATCH, DELETE                          |
+| **Request**     | Information sent by the client to the server                             |
+| **Response**    | Information returned by the server                                       |
+| **Resource**    | Business object exposed through an API, such as Customer, Account, Order |
+| **Base URL**    | Common starting URL of an API                                            |
+| **URI/URL**     | Address used to access an API resource                                   |
+| **URN**         | Name of the resource present in the URL                                   |
 
 
 
