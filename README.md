@@ -31,6 +31,8 @@ API TESTING
 └── 25. Logging / Monitoring / Audit
 ```
 
+**Where expected response codes/messages come from**
+
 | Source                             | What you get from it                                                                          |
 | ---------------------------------- | --------------------------------------------------------------------------------------------- |
 | **Swagger / OpenAPI**              | Endpoints, request schema, response schema, documented status codes                           |
