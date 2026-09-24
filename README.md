@@ -30,3 +30,35 @@ API TESTING
 ├── 24. Compatibility
 └── 25. Logging / Monitoring / Audit
 ```
+
+| Source                             | What you get from it                                                                          |
+| ---------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Swagger / OpenAPI**              | Endpoints, request schema, response schema, documented status codes                           |
+| **API contract**                   | Expected success/error responses and structures                                               |
+| **Business requirements**          | Business rules and expected behavior                                                          |
+| **Acceptance criteria**            | Specific expected outcomes                                                                    |
+| **Jira stories**                   | Requirements and sometimes error scenarios                                                    |
+| **Developer/API team**             | Missing/unclear response codes and behavior                                                   |
+| **Existing Postman collection**    | Existing requests, examples, environments                                                     |
+| **Actual API execution**           | Actual response; useful for discovering behavior, but not automatically the expected behavior |
+| **Database/service documentation** | Data/state behavior and integration expectations                                              |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
