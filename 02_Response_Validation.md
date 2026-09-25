@@ -80,6 +80,8 @@ SameSite
 | `Domain`          | Controls which domain receives it                  |
 | `Path`            | Controls which paths receive it                    |
 
+**The exact attributes you validate depend on the application's security requirements.**
+
 
 
 **4. Validating Response Time**
