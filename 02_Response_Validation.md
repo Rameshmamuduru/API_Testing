@@ -47,7 +47,9 @@ pm.test("Status code is 200", () => {
 });
 ```
 **2. Validating Headers**
-- don't need to validate every header—only headers relevant to the API's requirements.
+- don't need to validate every header—only headers relevant to the API specification/application requirements..
+- if we have **X-Request-ID** in status code means we have header.
+  
 ```
 Content-Type
 Authorization-related headers
@@ -66,6 +68,19 @@ Secure flag
 HttpOnly
 SameSite
 ```
+
+- Attributes we have for the coocke security
+
+| Attribute         | Purpose                                            |
+| ----------------- | -------------------------------------------------- |
+| `Secure`          | Cookie should be sent over HTTPS                   |
+| `HttpOnly`        | Helps prevent JavaScript from accessing the cookie |
+| `SameSite`        | Controls cross-site cookie behavior                |
+| `Expires/Max-Age` | Controls cookie lifetime                           |
+| `Domain`          | Controls which domain receives it                  |
+| `Path`            | Controls which paths receive it                    |
+
+
 
 **4. Validating Response Time**
 
